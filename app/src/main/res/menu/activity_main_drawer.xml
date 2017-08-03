@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Take a picture!" />
+        <item
+            android:id="@+id/travel"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Travel" />
+        <item
+            android:id="@+id/hotel"
+            android:icon="@drawable/home"
+            android:title="Hotel" />
+
+    </group>
+
+    <item android:title="More Info">
+        <menu>
+            <item
+                android:id="@+id/police"
+                android:icon="@drawable/police"
+                android:title="Police Office" />
+
+            <item
+                android:id="@+id/parking"
+                android:icon="@drawable/car"
+                android:title="Parking" />
+            <item
+                android:id="@+id/favorite"
+                android:icon="@drawable/car"
+                android:title="Favorite" />
+            <item
+                android:id="@+id/stolen"
+                android:icon="@drawable/car"
+                android:title="Caution" />
+
+            <item
+                android:id="@+id/POI_search"
+                android:icon="@drawable/car"
+                android:title="POI Search" />
+        </menu>
+    </item>
+
+</menu>
